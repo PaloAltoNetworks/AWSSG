@@ -3,7 +3,7 @@ Update AWS SG to quarantine hosts based upon trigger from FW threat log Edit Add
 
 This example code may be used in combination with Action-Oriented Log Forwarding on a Palo Alto Networks Firewall to automatically change the Security Group (SG) assocaited with an compromised host when a threat is detected by the firewall. The HTTP Server Profile on the firewall is configured to include the relevant information in the POST request body. The code is imported as part of an HTTP-triggered Lambda function. When activated by a message from the firewall, it will extract the relevant information from the request body, and make the API call to AWS to update the network interface and quarantine the host.
 
-The code does not have any additional requirements/libraries other than those already provided by Azure.
+The code does not have any additional requirements/libraries other than those already provided by AWS.
 
 Additional Information:
 
