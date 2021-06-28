@@ -1,3 +1,6 @@
+This Repository will be archive. Starting 6/28/21 will keep this archive then will delete this Repository. We have made this decission after confirming with respective owners. This is in effort of GitHub clean up project. 
+
+
 # AWSSG
 Update AWS SG to quarantine hosts based upon trigger from FW threat log Edit Add topics
 
